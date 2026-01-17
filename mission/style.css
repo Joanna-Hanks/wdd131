@@ -5,14 +5,18 @@ body {
 
 }
 #content {
-    max-width: 40%;
+    width: 500px;
     border: 1px solid black;
     margin: 40px auto;
     padding: 50px;
     text-align: center;
 }
-h5 {
+header {
+    letter-spacing: 0.1em;
+}
+h2 {
     color: #035f9c;
+    font-size: 13px;
     font-weight: 100;
     margin-bottom: -6px;
     margin-top: 25px;   
@@ -31,7 +35,7 @@ hr {
 img {
     width: 18%;
 }
-h4 {
+h3 {
     font-style: italic;
     font-weight: lighter;
 }
