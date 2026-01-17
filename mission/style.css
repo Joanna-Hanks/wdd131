@@ -2,7 +2,6 @@ body {
     background-color: white;
     font-size: 14px;
     line-height: 18px;
-
 }
 #content {
     width: 500px;
@@ -15,7 +14,7 @@ header {
     letter-spacing: 0.1em;
 }
 h2 {
-    color: #035f9c;
+    color: #51a1d6;
     font-size: 13px;
     font-weight: 100;
     margin-bottom: -6px;
@@ -23,7 +22,7 @@ h2 {
 }
 hr {
     height: 0.1px;
-    background-color: #035f9c;
+    color: #51a1d6;
     width: 70%;
     margin-bottom: 50px;
 }
