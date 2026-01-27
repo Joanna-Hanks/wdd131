@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+    margin: 0;
+    padding: 0;
+    min-width: 300px;
+}
+main {
+    background-color: rgb(209, 209, 209);
+    text-align: center;
+}
+header,
+footer {
+    background-color: rgba(65, 65, 255, 0.95);
+    text-align: center;
+    color: white;
+}
+h1 {
+    margin: 0;
+    padding: 20px;
+}
+h2 {
+    margin: 0;
+    padding: 20px;
+}
+.picture {
+    border: 5px solid #ffffff;
+    border-radius: 5px;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    box-shadow: 5px 2px 8px rgba(0, 0, 0, 0.4);
+    margin: 10px auto;
+}
+.all-pictures {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.menu-btn {
+    color: white;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    font-size: 1.4rem;
+    padding-bottom: 10px;
+}
+nav {
+    height: 25px;
+}
+nav a{
+    color: white;
+    display: none;
+    padding: 20px;
+
+}
+nav a:hover {
+    text-decoration: none;
+    color: #616061;
+}
+footer {
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+@media screen and (min-width: 700px) {
+    .all-pictures {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .all-pictures {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .menu-btn {
+        display: none;
+    }
+    nav a {
+        display: inline;
+    }
+}
